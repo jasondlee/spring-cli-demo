@@ -1,4 +1,4 @@
-package com.steeplesoft.spring_cli_app_java;
+package com.steeplesoft.springcli;
 
 public interface Command {
     String commandName();

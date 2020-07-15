@@ -1,4 +1,4 @@
-package com.steeplesoft.spring_cli_app_java;
+package com.steeplesoft.springcli;
 
 import com.beust.jcommander.JCommander;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -36,25 +36,3 @@ public class SpringBootCliApplication implements CommandLineRunner {
         SpringApplication.run(SpringBootCliApplication.class, args);
     }
 }
-// commands: List<Command>) : CommandLineRunner {
-//        override fun run(vararg args: String?) {
-//        val builder = JCommander.newBuilder()
-//        commands.forEach {
-//        builder.addCommand(it.getCommandName(), it)
-//        }
-//        val jc = builder.build();
-//
-//        jc.parse(*args)
-//
-//        val command = commands.firstOrNull { it.getCommandName() == jc.parsedCommand }
-//        if (command == null) {
-//        jc.usage()
-//        } else {
-//        command.run()
-//        }
-//        }
-//        }
-//
-//        fun main(args: Array<String>) {
-//        runApplication<ShadowDocumentsApplication>(*args)
-//        }

@@ -1,4 +1,4 @@
-package com.steeplesoft.spring_cli_app
+package com.steeplesoft.springcli
 
 interface Command {
     fun commandName() : String

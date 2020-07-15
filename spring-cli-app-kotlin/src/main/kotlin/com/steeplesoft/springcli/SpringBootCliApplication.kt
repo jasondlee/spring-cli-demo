@@ -1,4 +1,4 @@
-package com.steeplesoft.spring_cli_app
+package com.steeplesoft.springcli
 
 import com.beust.jcommander.JCommander
 import org.springframework.boot.CommandLineRunner
